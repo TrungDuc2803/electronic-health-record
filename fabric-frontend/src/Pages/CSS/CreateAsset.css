@@ -1,0 +1,53 @@
+.create-asset-container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+flex-direction: column; /* Center items vertically in a column */
+margin-top: 150px;
+margin-bottom: 150px;
+}
+
+.create-asset-form {
+border: 2px solid #ccc;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 400px;
+text-align: center; /* Center the form contents horizontally */
+margin-top: 20px; /* Add some space between the form and the heading */
+}
+
+.form-group {
+margin: 10px 0;
+}
+
+.form-group label {
+display: block;
+margin-bottom: 5px;
+text-align: left; /* Left-align the label text */
+}
+
+.form-group input {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.create-asset-button {
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+text-align: center; /* Center the button text horizontally */
+}
+
+.create-asset-button:hover {
+background-color: #0056b3;
+}
+  
+
+  

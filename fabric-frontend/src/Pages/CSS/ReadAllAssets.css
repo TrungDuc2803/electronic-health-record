@@ -1,0 +1,41 @@
+/* Asset card styles */
+.asset-container {
+display: grid;
+grid-template-columns: repeat(4, 1fr); /* 4 assets per row */
+gap: 20px; /* Adjust the gap between assets */
+}
+
+.asset-card {
+border: 2px solid #ccc;
+border-radius: 5px;
+padding: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+background-color: #f9f9f9;
+transition: transform 0.2s; /* Add smooth hover effect */
+cursor: pointer; /* Cursor as pointer on hover */
+}
+
+.asset-card:hover {
+transform: scale(1.05); /* Enlarge on hover */
+}
+
+/* Asset details styles */
+.asset-card h2 {
+font-size: 18px;
+margin: 5px 0;
+}
+
+.asset-card p {
+margin: 5px 0;
+}
+
+/* Additional styles (customize as needed) */
+h1 {
+font-size: 24px;
+text-align: center;
+margin: 20px 0;
+color: #333;
+text-transform: uppercase;
+}
+
+  

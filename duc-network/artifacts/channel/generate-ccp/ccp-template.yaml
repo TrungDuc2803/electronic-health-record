@@ -1,0 +1,35 @@
+---
+name: five-network-hospital${HOSPITAL}
+version: 1.0.0
+client:
+  organization: Hospital${HOSPITAL}
+  connection:
+    timeout:
+      peer:
+        endorser: '300'
+organizations:
+  Hospital${HOSPITAL}:
+    mspid: Hospital${HOSPITAL}MSP
+    peers:
+    - peer0.hospital${HOSPITAL}.example.com
+    certificateAuthorities:
+    - ca.hospital${HOSPITAL}.example.com
+peers:
+  peer0.hospital${HOSPITAL}.example.com:
+    url: grpcs://localhost:${P0PORT}
+    tlsCACerts:
+      pem: |
+          ${PEERPEM}
+    grpcOptions:
+      ssl-target-name-override: peer0.hospital${HOSPITAL}.example.com
+      hostnameOverride: peer0.hospital${HOSPITAL}.example.com
+certificateAuthorities:
+  ca.hospital${HOSPITAL}.example.com:
+    url: https://localhost:${CAPORT}
+    caName: ca-hospital${HOSPITAL}
+    tlsCACerts:
+      pem: 
+        - |
+          ${CAPEM}
+    httpOptions:
+      verify: false

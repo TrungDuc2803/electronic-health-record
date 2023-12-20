@@ -1,0 +1,53 @@
+/* Add the following styles to your CSS file */
+
+body {
+margin: 0;
+padding: 0;
+background: url('A:/EHR-Blockchain-Hyperledger/fabric-frontend/src/Pages/Images/doctorWallpaper.jpg') center center fixed;
+background-size: cover;
+}
+
+.container {
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center; /* Center the container horizontally */
+justify-content: center; /* Center the container vertically */
+height: 400px; /* Set the container height to the full viewport height */
+background: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the container */
+border-radius: 10px; /* Add some border radius for a rounded look */
+padding: 20px; /* Add padding inside the container */
+}
+
+.container h1 {
+margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Adjust the spacing between input fields and select dropdown */
+.container div {
+margin-bottom: 15px; /* Increase spacing between input fields and select dropdown */
+}
+
+/* Increase the size of labels, inputs, and select */
+.container label,
+.container input,
+.container select {
+font-size: 18px; /* Increase font size */
+}
+
+/* Center the login button */
+.container button {
+margin-top: 15px; /* Increase spacing above the button */
+width: 120px; /* Increase the width of the button */
+}
+
+/* Style for error message */
+.error {
+color: red;
+margin-top: 15px; /* Increase spacing above the error message */
+}
+
+  
+
+  
+  

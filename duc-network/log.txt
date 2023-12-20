@@ -1,0 +1,3 @@
+Installed chaincodes on peer:
+Package ID: hospital_2:078a7406b7afaa08f377040970056d7d513445e568bd10c003ed728ab2b68602, Label: hospital_2
+Package ID: hospital_1:124a9ddf233e80004d5cf24e56392ee97aca0a0371ec2da7e7f174653d8d1f48, Label: hospital_1

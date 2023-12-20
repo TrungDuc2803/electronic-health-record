@@ -1,0 +1,58 @@
+/* Grid styles */
+.patients-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+gap: 20px; /* Adjust the gap between patients */
+padding-bottom: 300px;
+}
+
+.patient-card {
+border: 2px solid #3498db; /* Blue border */
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+background-color: #ffffff;
+transition: transform 0.3s; /* Add smooth hover effect */
+cursor: pointer; /* Cursor as pointer on hover */
+}
+
+.patient-card:hover {
+transform: scale(1.05); /* Enlarge on hover */
+}
+
+.patient-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.patient-details {
+padding: 15px;
+}
+
+.patient-details h2 {
+font-size: 20px;
+margin: 5px 0;
+color: #333;
+}
+
+.patient-details p {
+margin: 5px 0;
+color: #555;
+}
+
+/* Additional styles (customize as needed) */
+h1 {
+font-size: 28px;
+text-align: center;
+margin: 20px 0;
+color: #3498db; /* Blue color */
+text-transform: uppercase;
+}
+  
+
+  
+
+  
+
+  
